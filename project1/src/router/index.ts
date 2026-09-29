@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Go from "@/views/Go.vue";
 import Login from "@/views/Login.vue";
 import Agreement from '@/views/Agreement.vue';
+import SelectDebitAccount from '@/views/SelectDebitAccount.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -22,6 +23,11 @@ const router = createRouter({
             path: '/agreement',
             name: 'agreement',
             component: Agreement,
+        },
+        {
+            path: '/selectDebitAccount',
+            name: 'selectDebitAccount',
+            component: SelectDebitAccount,
         },
     ],
 })
