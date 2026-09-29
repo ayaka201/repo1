@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Go from "@/views/Go.vue";
 import Login from "@/views/Login.vue";
+import Agreement from '@/views/Agreement.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -16,6 +17,11 @@ const router = createRouter({
             path: '/login',
             name: 'login',
             component: Login,
+        },
+        {
+            path: '/agreement',
+            name: 'agreement',
+            component: Agreement,
         },
     ],
 })
