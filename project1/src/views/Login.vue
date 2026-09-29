@@ -49,7 +49,8 @@
                     </div>
                 </div>
                 <div class="flex flex-col mb-3">
-                    <button  class="border text-xl rounded-lg p-3 font-bold text-gray-50 bg-primary-500" @click="checkCaptcha">登入並驗證</button>
+                    <BaseButton text="登入並驗證" @click="checkCaptcha"></BaseButton>
+                    <!-- <button  class="border text-xl rounded-lg p-3 font-bold text-gray-50 bg-primary-500" @click="checkCaptcha"></button> -->
                 </div>
                 <div class="flex flex-col text-[#3C3127] text-xs leading-[170%] font-normal">
                     <p>說明</p>
@@ -66,6 +67,7 @@
 <script setup lang="ts">
     import CloseMdIcon from '@iconify-vue/ci/close-md';
     import { ref } from 'vue'
+    import BaseButton from '@/components/BaseButton.vue';
 
     const captchaInput = ref('')
     const captchaCode = ref('298528')
