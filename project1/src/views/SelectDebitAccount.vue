@@ -24,7 +24,7 @@
         </div>
         </div>
         <div class="w-70">
-            <BaseButton text="下一步"></BaseButton>  
+            <BaseButton>下一步</BaseButton>  
         </div>
     </div>
     

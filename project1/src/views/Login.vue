@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col mb-3">
-                    <BaseButton text="登入並驗證" @click="checkCaptcha"></BaseButton>
+                    <BaseButton @click="checkCaptcha">登入並驗證</BaseButton>
                     <!-- <button  class="border text-xl rounded-lg p-3 font-bold text-gray-50 bg-primary-500" @click="checkCaptcha"></button> -->
                 </div>
                 <div class="flex flex-col text-[#3C3127] text-xs leading-[170%] font-normal">

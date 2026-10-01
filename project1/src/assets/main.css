@@ -8,10 +8,12 @@
     --color-primary-600: #009494;
 
     --color--gray-50: #000000;
+    --color--gray-100: #F9F9F9;
     --color--gray-200: #F0F0F0;
     --color--gray-300: #CACACA;
     --color--gray-400: #BABABA;
     --color--gray-500: #929292;
+    --color--gray-600: #676767;
     --color-gray-700: #3A3A3A;
     
     --color-red-500: #E60039;
@@ -43,6 +45,17 @@
     background-size: 100% 100%;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23004095' fill-rule='evenodd' d='M19.5 7.03V3H21v5.75c0 .69-.56 1.25-1.25 1.25H14V8.5h4.63a7.5 7.5 0 0 0-6.63-4a7.48 7.48 0 0 0-6.93 4.63l-1.385-.575A8.97 8.97 0 0 1 12 3c3.06 0 5.86 1.56 7.5 4.03M5.37 15.5a7.53 7.53 0 0 0 6.63 4a7.48 7.48 0 0 0 6.93-4.63l1.385.575A8.97 8.97 0 0 1 12 21a9.03 9.03 0 0 1-7.5-4.025V21H3v-5.75c0-.69.56-1.25 1.25-1.25H10v1.5z' clip-rule='evenodd'/%3E%3C/svg%3E");
 }
+
+.bi--phone {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg fill='%2302b3b3'%3E%3Cpath d='M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'/%3E%3Cpath d='M8 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
 
 button{
     cursor: pointer;

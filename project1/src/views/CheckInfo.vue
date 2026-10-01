@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <BaseButton text="下一步" class="max-w-70"></BaseButton>
+        <BaseButton class="max-w-70">下一步</BaseButton>
     </div>
 </template>
 
