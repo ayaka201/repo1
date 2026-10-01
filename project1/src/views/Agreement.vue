@@ -43,7 +43,7 @@
             </div>
 
         </div>
-        <BaseButton text="已了解並同意上列注意事項，下一步">已了解並同意上列注意事項，下一步</BaseButton>
+        <BaseButton>已了解並同意上列注意事項，下一步</BaseButton>
     </div>
 </template>
 
