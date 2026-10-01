@@ -1,7 +1,7 @@
 <template>
-    <div class="flex">
+    <div class="flex w-full">
         <template v-for="(step, index) in steps" :key="step">
-            <div class="flex flex-col items-center w-25">    
+            <div class="flex flex-col items-center w-25 shrink-0">    
                 <div 
                 class="border-2 flex justify-center items-center w-10 h-10 rounded-full font-medium" 
                 :class="index + 1 === currentStep ? 'text-primary-500 bg-gray-50 border-primary-500' : index + 1 <= currentStep ? 'text-gray-50 bg-primary-500 border-primary-500' : 'text-gray-300 bg-gray-50 border-gray-300'">
@@ -13,10 +13,10 @@
                     {{ step }}
                 </p>
             </div>
-            <div class="max-h-10 flex items-center"> 
+            <div v-if = "index < step.length - 1"  class="flex flex-1 h-10 min-w-0 items-center"> 
                 <div
-                class="w-25 border"
-                v-if = "index < step.length - 1" :class="index + 1 < currentStep ? 'border-primary-500' : 'border-gray-300'"></div>
+                class="h-0.5 w-full"
+                :class="index + 1 < currentStep ? 'bg-primary-500' : 'bg-gray-300'"></div>
 
             </div>
         </template>
