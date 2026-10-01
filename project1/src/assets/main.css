@@ -1,13 +1,20 @@
 @import "tailwindcss";
 
 @theme{
+    --color-primary-50: #F2FDFF;
+    --color-primary-300: #7DD4D4;
     --color-primary-400: #34BCBC;
     --color-primary-500: #02B3B3;
+    --color-primary-600: #009494;
 
     --color--gray-50: #000000;
+    --color--gray-200: #F0F0F0;
+    --color--gray-300: #CACACA;
+    --color--gray-400: #BABABA;
     --color--gray-500: #929292;
     --color-gray-700: #3A3A3A;
-
+    
+    --color-red-500: #E60039;
 }
 
 .bi--eye-slash-fill {
@@ -41,3 +48,14 @@ button{
     cursor: pointer;
 }
 
+.info-border{
+    @apply flex border-b border-b-gray-400 last:border-b-0 h-11 text-base  text-gray-700;
+}
+
+.info-label{
+    @apply bg-gray-200 flex items-center w-70 py-2 px-3 shrink-0 font-bold;
+}
+
+.info-value{
+    @apply flex-1 flex items-center py-2 px-3 border-l border-l-gray-400;
+}
